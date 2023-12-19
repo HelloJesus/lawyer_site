@@ -1,0 +1,179 @@
+.header__content-forex--bg {
+    background: url("../images/forex_recovery/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.forex__content {
+    display: flex;
+    align-items: flex-end;
+    padding: 72px 25px 100px 150px;
+}
+
+.forex__content-text {
+    max-width: 676px;
+    margin-left: 131px;
+    margin-bottom: 63px;
+    width: 676px;
+}
+
+.forex__img {
+    width: 500px;
+    height: auto;
+}
+
+.forex__title {
+    margin-bottom: 60px;
+}
+
+.forex__subtitle {
+    max-width: 641px;
+    margin-bottom: 50px;
+    font-family: WorkSans-Bold;
+    font-size: 26px;
+    line-height: 1.35;
+    color: #303030;
+}
+
+.forex__desc {
+    max-width: 641px;
+    font-family: WorkSans-medium;
+    font-size: 18px;
+    line-height: 1.18;
+    color: #303030;
+}
+
+.forex__desc+.forex__desc {
+    margin-top: 10px;
+}
+
+.fund-road__forex-inner {
+    padding: 72px 25px 84px 100px;
+}
+
+/* @media screen and (max-width: 1668px) {
+    .header__title {
+        max-width: 800px;
+    }
+} */
+
+/* @media screen and (max-width: 1600px) {
+    .forex__content {
+        padding: 31px 10px 34px 72px;
+    }
+} */
+
+/* @media screen and (max-width: 1490px) {
+    .header__content {
+        padding: 140px 25px 25px 25px
+    }
+} */
+
+@media screen and (max-width: 1366px) {
+    .forex__img {
+        width: 500px;
+        height: auto;
+    }
+
+    .forex__subtitle {
+        font-size: 24px;
+    }
+}
+
+/* @media screen and (max-width:1316px) {
+    .header__title {
+        max-width: 600px;
+    }
+} */
+
+@media screen and (max-width: 1213px) {
+    .fund-road__forex-inner {
+        padding: 30px 10px 44px 10px;
+    }
+
+    .forex__content {
+        padding: 31px 10px 34px 10px;
+    }
+
+    .forex__content-text {
+        margin-left: 61px;
+    }
+}
+
+/* @media screen and (max-width: 1190px) {
+    .header__title {
+        max-width: 500px;
+    }
+} */
+
+@media screen and (max-width: 1110px) {
+    .header__content-wrapper {
+        background-image: url("../images/main/main-bg-mobile.jpg");
+        background-position: center;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .header__content {
+        padding: 75px 25px 50px 25px;
+    }
+
+    .header__title {
+        max-width: 100%;
+    }
+
+    .forex__content {
+        align-items: center;
+    }
+
+    .forex__img {
+        width: 469px;
+        height: auto;
+    }
+
+    .forex__content-text {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .forex__img {
+        width: 369px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .forex__content-text {
+        margin-left: 30px;
+    }
+
+    .forex__title {
+        margin-bottom: 30px;
+    }
+
+    .forex__subtitle {
+        font-size: 20px;
+    }
+
+    .forex__desc {
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .forex__content {
+        flex-direction: column;
+    }
+
+    .forex__content-text {
+        max-width: 100%;
+        margin: 15px 0 0 0;
+    }
+
+
+    .forex__img {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,168 @@
+.header__content-crypto {
+    background: url("../images/crypto_recovery/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.crypto__content {
+    display: flex;
+    align-items: flex-end;
+    padding: 72px 25px 100px 90px;
+}
+
+.crypto__content-text {
+    max-width: 676px;
+    margin-left: 107px;
+    margin-bottom: 25px;
+    width: 676px;
+}
+
+.crypto__img {
+    width: 617px;
+    height: auto;
+}
+
+.crypto__title {
+    margin-bottom: 66px;
+}
+
+.crypto__subtitle {
+    max-width: 641px;
+    margin-bottom: 50px;
+    font-family: WorkSans-Bold;
+    font-size: 26px;
+    line-height: 1.35;
+    color: #303030;
+}
+
+.crypto__desc {
+    max-width: 641px;
+    font-family: WorkSans-medium;
+    font-size: 18px;
+    line-height: 1.18;
+    color: #303030;
+}
+
+.crypto__desc+.crypto__desc {
+    margin-top: 10px;
+}
+
+.fund-road__crypto-inner {
+    padding: 72px 25px 84px 100px;
+}
+
+/* @media screen and (max-width: 1668px) {
+    .header__title {
+        max-width: 800px;
+    }
+} */
+
+
+
+/* @media screen and (max-width: 1490px) {
+    .header__content {
+        padding: 80px 10px 55px 10px;
+    }
+} */
+
+@media screen and (max-width: 1366px) {
+    .crypto__img {
+        width: 600px;
+        height: auto;
+    }
+
+    .crypto__subtitle {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1316px) {
+    /* .header__title {
+        max-width: 550px;
+    } */
+
+    .crypto__img {
+        width: 569px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1213px) {
+    .fund-road__crypto-inner {
+        padding: 11px 10px 10px 10px;
+    }
+
+    .crypto__content {
+        padding: 31px 10px 34px 10px;
+    }
+
+    .crypto__content-text {
+        margin-left: 61px;
+    }
+
+
+}
+
+@media screen and (max-width: 1110px) {
+    .header__content-wrapper {
+        background-image: url("../images/main/main-bg-mobile.jpg");
+        background-position: center;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .header__content {
+        padding: 75px 25px 50px 25px
+    }
+
+    .header__title {
+        max-width: 100%;
+    }
+
+    .crypto__content {
+        align-items: center;
+    }
+
+    .crypto__img {
+        width: 469px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .crypto__img {
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .crypto__content-text {
+        margin-left: 30px;
+    }
+
+    .crypto__subtitle {
+        font-size: 20px;
+    }
+
+    .crypto__desc {
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .crypto__content {
+        flex-direction: column;
+    }
+
+    .crypto__content-text {
+        max-width: 100%;
+        margin: 15px 0 0 0;
+    }
+
+    .crypto__img {
+        max-width: 100%;
+    }
+}
